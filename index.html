@@ -19,7 +19,7 @@
         <nav class="navbar">
             <ul class="menu-nav">
                 <li class="menu-nav__item active">
-                    <a href="home.html" class="menu-nav__link">
+                    <a href="index.html" class="menu-nav__link">
                         <i class="fas fa-home"></i> 
                         <span>Home</span>
                     </a>
@@ -60,15 +60,23 @@
             </div>
 
             <div class="content">
-                <h3>hi, i am dexter ladines</h3>
-                <span>web developer</span>
+                <h3>Hi! I'm <span class="auto-input"></span></h3>
+                
                 <p>Welcome to my Portfolio</p>
-                <a href="#about" class="btn"> about me <i class="fas fa-user"></i> </a>
+                
             </div>
 
         </section>
 
 <!-- home section ends -->
-
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".auto-input", {
+				strings:["Dexter Ladines.", " a Web Developer.", "a Programmer."],
+				typeSpeed: 100,
+				backSpeed: 100,
+				loop: true
+			})
+		</script>
 </body>
 </html>
